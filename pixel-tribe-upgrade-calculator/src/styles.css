@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: system-ui !important;
+  background: #324ea8 !important;
+  color: white !important;
+  text-align: center !important;
+}
