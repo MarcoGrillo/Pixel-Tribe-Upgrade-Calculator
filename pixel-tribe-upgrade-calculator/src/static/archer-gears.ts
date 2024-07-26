@@ -4,6 +4,27 @@ import { Gear } from "src/app/models/gear";
 
 export const ARCHER_GEARS: Gear[] = [
   {
+    name: "Divine Shoulders of the Wolf",
+    stats: [
+      {
+        name: StatName.DEF,
+        maxValue: 28698
+      },
+      {
+        name: StatName.MR,
+        maxValue: 14349
+      },
+      {
+        name: StatName.HP,
+        maxValue: 1452
+      },
+      {
+        name: StatName.AGI,
+        maxValue: 387
+      },
+    ]
+  },
+  {
     name: "Heroic Tunic of the Dragon",
     stats: [
       {
@@ -101,6 +122,23 @@ export const ARCHER_GEARS: Gear[] = [
       {
         name: StatName.AGI,
         maxValue: 144
+      },
+    ]
+  },
+  {
+    name: "Divine Jotun Slayer",
+    stats: [
+      {
+        name: StatName.ATK,
+        maxValue: 3414
+      },
+      {
+        name: StatName.HP,
+        maxValue: 1016
+      },
+      {
+        name: StatName.AGI,
+        maxValue: 272
       },
     ]
   },
